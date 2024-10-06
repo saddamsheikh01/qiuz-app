@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Quiz {
+  margin: 20px 0;
+}
+
+.Quiz-question {
+  margin-bottom: 20px;
+}
+
+.Quiz-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.Quiz-option {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Quiz-option:hover {
+  background-color: #0056b3;
+}
